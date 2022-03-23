@@ -12,13 +12,14 @@ function Details({movie}) {
   return (
       <>
         <div className="container">
-              <h1 className='movieTitle'>film: {f.title}</h1>
-              <div className='CantainerTrailer'>
-                
+            <h1 className='movieTitle'>Title: {f.title}</h1>
+            <div className='CantainerTrailer'>
               <iframe width="800" height="500" src={f.srcTrailer} title="YouTube video player" 
                 frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen/>
-              </div>
+            </div>
+            <h3 className='sinopsis'><b>sinopsis:</b></h3>
+            <p className='sinopsis'>{f.sinopsis}</p>
         </div>
       </>
   )
