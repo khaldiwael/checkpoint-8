@@ -1,18 +1,26 @@
 export const moviesData = [
   {
-    srcvideo:"https://www.youtube.com/embed/u4D33yfWdvQ",
-    title:"مسلسل شوفلي حل - الموسم 2008 - الحلقة السادسة والعشرون"
+    srcImg:"./img/rj.jpg",
+    title:"la route",
+    srcTrailer:"https://www.youtube.com/embed/NmBrOcPIa4Y",
+    id:1
+  },
+  {    
+  srcImg:"./img/ironman.jpg",
+  title:"iron man",
+  id:2,
+  srcTrailer:"https://www.youtube.com/embed/8ugaeA-nMTc",
   },
   {
-  srcvideo:"https://www.youtube.com/embed/u4D33yfWdv",
-  title:"مسلسل شوفلي حل - الموسم 2008 - الحلقة السادسة والعشرون"
+  srcImg:"./img/joker.jpg",
+  title:"Joker",
+  id:3,
+  srcTrailer:"https://www.youtube.com/embed/zAGVQLHvwOY",
   },
   {
-  srcvideo:"https://www.youtube.com/embed/u4D33yfWdvQ",
-  title:"مسلسل شوفلي حل - الموسم 2008 - الحلقة السادسة والعشرون"
-  },
-  {
-  srcvideo:"https://www.youtube.com/embed/u4D33yfWdvQ",
-  title:"مسلسل شوفلي حل - الموسم 2008 - الحلقة السادسة والعشرون"
+  srcImg:"./img/TheWalkingDead.jpg",
+  title:"wolking dead",
+  id:4,
+  srcTrailer:"https://www.youtube.com/embed/sfAc2U20uyg",
   }
   ];
